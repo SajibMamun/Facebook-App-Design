@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Facebook App Design</string>
+    <string name="signupstring">By clicking Sign Up, you agree to our Terms, Data policy and Cookie Policy.You may receive SMS notifications from us and can opt out any time</string>
+    <string-array name="item">
+
+        <item>More</item>
+        <item>Bangla</item>
+        <item>English</item>
+        <item>Hindi</item>
+
+    </string-array>
+</resources>

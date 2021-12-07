@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/facebook"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espanol"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" .Francias"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+        <Spinner
+            android:id="@+id/spinnerid"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+
+            >
+            <EditText
+                android:id="@+id/logphoneoremailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone or email"
+                android:inputType="text"
+                />
+            <EditText
+                android:id="@+id/logpasswordid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loginbuttonid"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:background="#0663AF"
+            android:layout_margin="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:textSize="20sp"
+
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/forgotpasswordid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textStyle="bold"
+        android:textColor="#0B5B8F"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <View
+            android:layout_width="200dp"
+            android:layout_height="2sp"
+            android:background="#28817D7D"
+            android:layout_margin="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+
+            />
+
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="2sp"
+            android:background="#28817D7D"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/createaccountid"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="#2BB12F"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Facebook Account"
+            android:textSize="20sp"
+
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
